@@ -10,15 +10,15 @@ the atmospheric environment during the EUREC4A field campaign.
 
 | variable | description | definition | data sources |
 | --- | --- | --- | --- |
-| h_BL | boundary layer depth | numerous definitions (**add links**) | thermodynamic profiles |
+| h_BL | boundary layer depth | maximum RH, no vertical gradients in moisture or temp (**add links**) | thermodynamic profiles |
 | h_CB | cloud-base height | numerous definitions (**add links**) | thermodynamic profiles |
+| z_INV | inversion base height (multiple?) | ? | thermodynamic profiles |
 | SST | sea surface temperature | - | ship observations (?), ERA reanalysis |
 | EIS | estimated inversion strength | ? | thermodynamic profiles |
 | LTS | lower tropospheric stability | ? | thermodynamic profiles |
-| FT humidity | ? | ? | ? |
-| "wind speed" | lower tropospheric wind magnitude? | - | horizontal wind profiles |
-| "wind shear" | lower tropospheric wind shear magnitude? | - | horizontal wind profiles |
-| z_INV | "inversion height" (multiple?) | ? | thermodynamic profiles |
+| FT humidity | discussion of suitable proxies | ? | ? |
+| wind speed | mean wind magnitude per atmospheric layer (BL, cloud layer, inversion)? | - | horizontal wind profiles |
+| wind shear | wind shear magnitude per layer? | - | horizontal wind profiles |
 
 ## Profile variables
 
@@ -30,3 +30,4 @@ the atmospheric environment during the EUREC4A field campaign.
 | u(z) | zonal wind profile | HALO dropsondes? |
 | v(z) | meridonal wind profile | HALO dropsondes? |
 | w(z) | vertical wind profile | HALO dropsondes? |
+
